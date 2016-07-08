@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/alm-tools/almo/issues"
   },
-  "homepage": "https://github.com/alm-tools/almo#readme"
+  "homepage": "https://github.com/alm-tools/almo#readme",
+  "dependencies": {
+    "alm": "latest",
+    "electron-prebuilt": "latest"
+  }
 }
