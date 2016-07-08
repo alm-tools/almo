@@ -1,0 +1,24 @@
+{
+  "name": "almo",
+  "version": "0.0.0",
+  "description": "ALM on the desktop",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alm-tools/almo.git"
+  },
+  "keywords": [
+    "alm",
+    "typescript",
+    "javascript"
+  ],
+  "author": "basaratali@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alm-tools/almo/issues"
+  },
+  "homepage": "https://github.com/alm-tools/almo#readme"
+}
