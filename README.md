@@ -12,3 +12,7 @@ npm install almo -g
 Now just run `almo` like you would run alm :) but without the need for a `-o` argument ;).
 
 ![](https://raw.githubusercontent.com/alm-tools/alm/master/resources/icon.png)
+
+# More
+
+Jump on to [`alm`](http://alm.tools) to learn more 🌹
