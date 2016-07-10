@@ -15,11 +15,17 @@ const BrowserWindow = electron.BrowserWindow;
 function createWindow(url:string) {
   // Create the browser window.
   let win = new BrowserWindow({
-    autoHideMenuBar: true
+    autoHideMenuBar: true,
+    title: 'ALM',
+    // don't show before maximizing
+    show: false,
   });
 
   // and load the index.html of the app.
   win.loadURL(url);
+
+  win.maximize();
+  win.show();
 
   // Emitted when the window is closed.
   win.on('closed', () => {
