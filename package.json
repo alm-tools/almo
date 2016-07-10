@@ -2,9 +2,9 @@
   "name": "almo",
   "version": "0.0.0",
   "description": "ALM on the desktop",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,10 @@
   },
   "homepage": "https://github.com/alm-tools/almo#readme",
   "dependencies": {
-    "alm": "latest",
-    "electron-prebuilt": "latest"
+    "alm": "latest"
+  },
+  "devDependencies": {
+    "electron-packager": "^7.0.0",
+    "electron-prebuilt": "^1.0.1"
   }
 }

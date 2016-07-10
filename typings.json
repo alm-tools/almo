@@ -1,0 +1,9 @@
+{
+  "name": "almo",
+  "version": false,
+  "dependencies": {},
+  "globalDependencies": {
+    "electron": "registry:env/electron#0.37.6+20160416165306",
+    "node": "registry:dt/node#6.0.0+20160709114037"
+  }
+}
