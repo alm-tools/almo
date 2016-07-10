@@ -15,8 +15,14 @@ const BrowserWindow = electron.BrowserWindow;
 function createWindow(url:string) {
   // Create the browser window.
   let win = new BrowserWindow({
-    autoHideMenuBar: true,
+    // Nice title
     title: 'ALM',
+    // don't have any use for menus
+    autoHideMenuBar: true,
+    // the default zoom is too low
+    webPreferences: {
+        zoomFactor: 1.2,
+    },
     // don't show before maximizing
     show: false,
   });
