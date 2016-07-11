@@ -44,7 +44,10 @@ function createWindow(url:string) {
 // Some APIs can only be used after this event occurs.
 app.on('ready', () => {
     const {listeningAtUrl} = require("alm/src/server");
-    listeningAtUrl.on(({url}) => createWindow(url));
+    listeningAtUrl.on(({url}) => {
+        console.log('url',url)
+        createWindow(url)
+    });
 });
 
 // Quit when all windows are closed.
