@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "ALM on the desktop",
   "main": "dist/index.js",
+  "bin": {
+    "almo": "./bin/almo"
+  },
   "scripts": {
     "start": "electron .",
     "postinstall": "ntsc -p ."
