@@ -4,7 +4,8 @@
   "description": "ALM on the desktop",
   "main": "dist/index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "postinstall": "ntsc -p ."
   },
   "repository": {
     "type": "git",

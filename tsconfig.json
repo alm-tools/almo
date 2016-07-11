@@ -3,8 +3,8 @@
         "outDir": "./dist"
     },
     "include": [
-        "./src",
-        "./typings"
+        "./src/index.ts",
+        "./typings/**/*.ts"
     ],
     "exclude": [
         "node_modules"
