@@ -23,5 +23,5 @@ Always:
 
 https://github.com/sindresorhus/electron-boilerplate/blob/master/boilerplate/package.json
 
-* `electron-prebuilt`: Allows runing electron js app without building
+* `electron-prebuilt`: Allows running electron js app without building
 * `electron-packager`: Builds electron js apps to executables
