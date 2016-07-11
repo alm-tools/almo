@@ -14,8 +14,9 @@ Once:
 * clone
 * npm install
 
-Always:
+Always when you get new code:
 
+* npm install
 * npm start
 
 
@@ -25,3 +26,5 @@ https://github.com/sindresorhus/electron-boilerplate/blob/master/boilerplate/pac
 
 * `electron-prebuilt`: Allows running electron js app without building
 * `electron-packager`: Builds electron js apps to executables
+
+Instead of making actual executable packages I've just gone with sending `electron-prebuilt` down to the user.

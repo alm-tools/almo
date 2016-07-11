@@ -23,10 +23,9 @@
   },
   "homepage": "https://github.com/alm-tools/almo#readme",
   "dependencies": {
-    "alm": "latest"
+    "alm": "latest",
+    "electron-prebuilt": "^1.0.1"
   },
   "devDependencies": {
-    "electron-packager": "^7.0.0",
-    "electron-prebuilt": "^1.0.1"
   }
 }
